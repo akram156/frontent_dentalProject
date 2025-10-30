@@ -1,0 +1,303 @@
+.hero-fluid {
+  position: relative;
+  z-index: 1 !important;
+}
+.clinicInfo-fluid {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.349);
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+
+  .clinicInfo {
+    max-width: 60%;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 2rem;
+      color: white;
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.5rem;
+      color: white;
+    }
+  }
+}
+.image {
+  z-index: -1000;
+}
+.image-fluid {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black !important;
+}
+.button {
+  background-color: #0d99c7 !important;
+  border: none !important;
+  padding: 0.8rem 2rem !important;
+  border-radius: 50px !important;
+  font-size: 1rem !important;
+  color: white !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+button:hover {
+  background-color: #08a1cf;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(13, 153, 199, 0.5);
+}
+button:active {
+  background-color: #0ea4e9;
+  scale: 0.95;
+}
+/* !---------------------------------------------------------------------------- */
+.aboutClinic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.clinic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+  align-items: center;
+  img {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .info-container {
+    background-color: #f9fafa;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.158);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 0.5rem;
+    max-width: 45%;
+    .clinic-para {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+    .clinic-contact {
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .image-container {
+    display: block !important;
+    margin: auto;
+  }
+  .info-container {
+    max-width: 100% !important;
+    margin: 1rem !important;
+    .clinic-para {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+    .clinic-contact {
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 700px) {
+  .clinicInfo {
+    max-width: 100% !important;
+    margin: 0rem !important;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    gap: 10px !important;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500 !important;
+      font-style: italic;
+      font-size: 2rem !important;
+      text-shadow: 0px 0px 10px white;
+      /* color: white; */
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400 !important;
+      font-style: italic;
+      font-size: 1.3rem !important;
+      color: white;
+      margin: 0 1rem !important;
+      text-shadow: 0px 0px 10px black;
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300 !important;
+      font-style: italic;
+      font-size: 1rem !important;
+      color: white;
+      text-shadow: 0px 0px 10px black;
+    }
+  }
+  .button {
+    padding: 0.6rem 1rem !important;
+    border-radius: 50px;
+    font-size: 0.7rem !important;
+    color: white;
+    font-weight: 500 !important;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px aqua;
+  }
+  /* !this is the clinci infos section */
+  .image-container {
+    display: block !important;
+    margin: auto;
+    width: 85% !important;
+  }
+  .info-container {
+    max-width: 100% !important;
+    margin: 1rem !important;
+    .clinic-para {
+      font-size: 0.9rem !important;
+      line-height: 1.7;
+      color: #555;
+    }
+  }
+  .aboutClinic {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .clinicInfo {
+    max-width: 100% !important;
+    margin: auto !important;
+    display: block !important;
+    /* background-color: aqua; */
+    flex-direction: column;
+
+    h1 {
+      margin: 10px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500 !important;
+      font-style: italic;
+      font-size: 3.2rem !important;
+      text-shadow: 0px 0px 10px white;
+      /* color: white; */
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400 !important;
+      font-style: italic;
+      font-size: 1.5rem !important;
+      color: white;
+      margin: 0 1rem !important;
+      text-shadow: 0px 0px 10px black;
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300 !important;
+      font-style: italic;
+      font-size: 1.2rem !important;
+      color: white;
+      text-shadow: 0px 0px 10px black;
+    }
+  }
+  .button {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem !important;
+    border-radius: 50px;
+    font-size: 0.9rem !important;
+    color: white;
+    font-weight: 500 !important;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px aqua;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-fluid {
+    height: 400px !important;
+  }
+  .image-fluid {
+    img {
+      height: 400px !important;
+    }
+  }
+  .clinicInfo {
+    max-width: 100% !important;
+    margin: 0rem !important;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    gap: 10px !important;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500 !important;
+      font-style: italic;
+      font-size: 2rem !important;
+      text-shadow: 0px 0px 10px white;
+      /* color: white; */
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400 !important;
+      font-style: italic;
+      font-size: 1.3rem !important;
+      color: white;
+      margin: 0 1rem !important;
+      text-shadow: 0px 0px 10px black;
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300 !important;
+      font-style: italic;
+      font-size: 1rem !important;
+      color: white;
+      text-shadow: 0px 0px 10px black;
+    }
+  }
+  .button {
+    padding: 0.6rem 1rem !important;
+    border-radius: 50px;
+    font-size: 0.7rem !important;
+    color: white;
+    font-weight: 500 !important;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px aqua;
+  }
+}

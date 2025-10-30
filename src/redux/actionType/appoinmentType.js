@@ -1,0 +1,6 @@
+export const LOADING='LOADING'
+export const SUCCESS_APP='SUCCESS_APP'
+export const FAIL_APP='FAIL_APP'
+export const FILL_APPOINMENTS='FILL_APPOINMENTS'
+export const GET_APPOINMENTS='GET_APPOINMENTS'
+export const BOOKER='BOOKER'

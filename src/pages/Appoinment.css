@@ -1,0 +1,50 @@
+.appoinment-container{
+  padding: 2rem;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic; 
+  background-color: #0d99c7;
+}
+.appoinment {
+  background-color: #ffffffee; 
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  /* border-radius: 20px; */
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 80%;
+}
+
+.patientAppoinment{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* background-color: black; */
+}
+.takeApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  /* width: 60%; */
+}
+@media screen and (max-width:600px) {
+  .appoinment {
+  padding: 1rem 2rem;
+  gap: 1rem;
+  width: 95%;
+}
+.patientAppoinment{
+  width: 100% !important;
+}
+}

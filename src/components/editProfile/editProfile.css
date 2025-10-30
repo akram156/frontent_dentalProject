@@ -1,0 +1,25 @@
+.edit-body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.bu {
+  background-color: transparent !important;
+  border: 1px solid #0d99c7 !important;
+  padding: 0.8rem 2rem !important;
+  border-radius: 50px !important;
+  font-size: 1rem !important;
+  color: #0d99c7 !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+bu:hover {
+  background-color: #e0f5fb;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(13, 153, 199, 0.5);
+}
+bu:active {
+  background-color: #0ea4e9;
+  scale: 0.95;
+}

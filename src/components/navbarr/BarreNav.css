@@ -1,0 +1,27 @@
+.navBar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: large;
+  padding: 0.7rem;
+  .link{
+    color: #0da3c5 !important;
+    transition: 0.3s;
+  }
+  .link:hover{
+    scale: 1.05;
+  }
+  .brand{
+    font-size: x-large;
+    margin-right: 2rem !important;
+  }
+}
+
+@media screen and (max-width:991) {
+  .profile-pic{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    background-color: black;
+  }
+}

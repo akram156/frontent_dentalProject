@@ -1,0 +1,22 @@
+.footer-container {
+  /* margin: 0rem 2rem; */
+  padding:0 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  /* position: absolute;
+  bottom: 0; */
+}
+.copyright{
+  padding: 1rem;
+}
+
+@media  screen and (max-width:800px) {
+  .content{
+    font-size: small !important;
+    text-align: center;
+  }
+  .copyright{
+    padding: 0.5rem;
+  }
+}

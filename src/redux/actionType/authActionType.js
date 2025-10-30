@@ -1,0 +1,10 @@
+// export const REGISTER = "REGISTER";
+export const LOADING = "LOADING";
+// export const FAIL='FAIL'
+export const CHOOSE_ROLE = "CHOOSE_ROLE";
+export const SUCCESS = "SUCCESS";
+export const FAIL = "FAIL";
+export const CURRENT = "CURRENT";
+export const LOGIN='LOGIN'
+export const CURRENT_USER='CURRENT_USER'
+export const LOGOUT_AUTH='LOGOUT_AUTH'

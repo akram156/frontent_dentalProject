@@ -1,0 +1,163 @@
+.profile-card {
+  background: linear-gradient(45deg, white, white, #0da3c5);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  width: 75%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.information-container{
+background-image: url('https://i.pinimg.com/736x/0a/56/ea/0a56eaba0b8cb46a2757c482dc2e8a56.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-color: #f9fafa;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.158);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 0.5rem;
+    max-width: 45%;
+    .clinic-para {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+    .clinic-contact {
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+/* opacity: 0.5; */
+
+.second-backgound{
+  background-color: rgba(255, 255, 255, 0.822);
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.258);
+  padding: 1rem;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1250px) {
+  .profile{
+    gap:5rem !important
+  }
+  .imag {
+    display: none;
+  }
+}
+.patientHeader{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic; 
+  color: #0da3c5;
+}
+
+@media screen and (max-width: 830px) {
+  .profile-card{
+    width: 85% !important;
+  }
+  .name {
+    font-size: medium;
+  }
+  .phone{
+    font-size: medium;
+  }
+  .role{
+    font-size: medium;
+  }
+  .profile-image{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:500px){
+   .profile-card{
+    width: 95% !important;
+  }
+  .profile{
+    gap: 1rem !important;
+  }
+  .name {
+    font-size: small;
+  }
+  .phone{
+    font-size: small;
+  }
+  .role{
+    font-size: small;
+  }
+  .profile-image{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .information-container {
+    max-width: 100% !important;
+    margin: 1rem !important;
+    .clinic-para {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+    .clinic-contact {
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 700px) {
+  
+  /* !this is the clinci infos section */
+
+  .information-container {
+    max-width: 100% !important;
+    margin: 1rem !important;
+    .clinic-para {
+      font-size: 0.9rem !important;
+      line-height: 1.7;
+      color: #555;
+    }
+  }
+  .aboutClinic {
+    font-size: 1rem;
+  }
+}
+
+ 
